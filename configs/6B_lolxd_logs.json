@@ -22,7 +22,7 @@
   "tpu_size": 8,
 
   "bucket": "gs://lolxd-bucket-logs",
-  "model_dir": "mesh_jax_lolxd_ethan_5epochs_6B",
+  "model_dir": "e5epochs-6B",
 
   "train_set": "ethan.train.index",
   "val_set": {},
