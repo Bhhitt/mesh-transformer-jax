@@ -21,7 +21,7 @@
 
   "tpu_size": 8,
 
-  "bucket": "gs://lolxd-bucket-logs",
+  "bucket": "lolxd-bucket-logs",
   "model_dir": "e5epochs-6B",
 
   "train_set": "ethan.train.index",
@@ -37,7 +37,7 @@
   "ckpt_every": 122,
   "keep_every": 122,
 
-  "name": "GPTJ_6B_ethan",
+  "name": "GPTJ-6B-ethan",
   "wandb_project": "lolx-gptj",
   "comment": ""
 }
