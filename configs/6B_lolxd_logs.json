@@ -12,19 +12,19 @@
   "per_replica_batch": 1,
   "gradient_accumulation_steps": 16,
 
-  "warmup_steps": 5,
-  "anneal_steps": 44,
+  "warmup_steps": 150,
+  "anneal_steps": 1358,
   "lr": 5e-5,
   "end_lr": 1e-5,
   "weight_decay": 0.1,
-  "total_steps": 49,
+  "total_steps": 1508,
 
   "tpu_size": 8,
 
   "bucket": "lolxd-bucket-logs",
-  "model_dir": "e1-6B",
+  "model_dir": "lolxd5-6B",
 
-  "train_set": "ethan.train.index",
+  "train_set": "allmessages.train.index",
   "val_set": {},
 
   "eval_harness_tasks": [
@@ -33,11 +33,11 @@
 
 
   "val_batches": 100,
-  "val_every": 12,
-  "ckpt_every": 49,
-  "keep_every": 49,
+  "val_every": 377,
+  "ckpt_every": 1508,
+  "keep_every": 1508,
 
-  "name": "E1-GPTJ-6B",
+  "name": "lolxd5-GPTJ-6B",
   "wandb_project": "lolx-gptj",
   "comment": ""
 }
